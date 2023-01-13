@@ -20,17 +20,18 @@ section{
   padding: 18px 35px;
 }
 .header{
-  background: #FFF8F3;
+  background: #e9ccb8;
   background-image: url('../images/header_bg.png'), url('../images/developer.png');
   background-repeat: no-repeat;
   background-position: bottom right, left;
 }
+
+/* header and navigation styles */
 nav{
   display: flex;
   justify-content: space-between;
-  margin: 50px 200px;
+  padding: 50px 200px;
 }
-/* header and navigation styles */
 .nav-title{
   font-weight: 800;
   font-size: 45px;
@@ -191,5 +192,5 @@ main{
  }
 
  .contact a{
-  text-decoration: none;
+  text-decoration: no;
  }
